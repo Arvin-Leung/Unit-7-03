@@ -4,7 +4,7 @@ document.getElementById('rec').addEventListener('click', recommendation)
 // The function below checks if the user's age 
 function recommendation () {
   // This stores the input as the variable age
-  let age = document.getElementById('age').value
+  const age = document.getElementById('age').value
   /* The if statements below check if the age is greater than the requirements to watch the movies. The recommendations will pop up as well if the condition is met. */
   if (age >= 17) {
     document.getElementById('result').innerHTML = 'You can see R rated Movies'
