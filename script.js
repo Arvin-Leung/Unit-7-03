@@ -1,7 +1,7 @@
 // The line below allows the button to call the function when clicked
 document.getElementById('rec').addEventListener('click', recommendation)
 
-// The function below checks if the user's age 
+// The function below checks if the user's age
 function recommendation () {
   // This stores the input as the variable age
   const age = document.getElementById('age').value
@@ -15,7 +15,6 @@ function recommendation () {
   } else {
     document.getElementById('result').innerHTML = 'You are probably too young to watch movies'
   }
-
-//  The line below thanks the user for inputting their age
-document.getElementById('thanks').innerHTML = 'Thank you! For being honest and verifying your age'
+  // The line below thanks the user for inputting their age
+  document.getElementById('thanks').innerHTML = 'Thank you! For being honest and verifying your age'
 }
