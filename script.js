@@ -14,7 +14,7 @@ function recommendation () {
     document.getElementById('result').innerHTML = 'You can watch G or PG Movies Alone'
   } else {
     document.getElementById('result').innerHTML = 'You are probably too young to watch movies'
-  } 
+  }
 
   // The line below thanks the user for inputting their age
   document.getElementById('thanks').innerHTML = 'Thank you! For being honest and verifying your age'
