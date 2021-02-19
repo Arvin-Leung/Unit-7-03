@@ -17,5 +17,5 @@ function recommendation () {
   }
 
 //  The line below thanks the user for inputting their age
-document.getElementById('thanks').innerHTML = "Thank you! For being honest and verifying your age"
+document.getElementById('thanks').innerHTML = 'Thank you! For being honest and verifying your age'
 }
